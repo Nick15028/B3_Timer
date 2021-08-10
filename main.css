@@ -78,7 +78,7 @@ header .content h1 {
 header .content h2 {
   color: #FFF;
   font-size: 28px;
-  font-weight: 450;
+  font-weight: 700;
   margin: 20px 0px;
 }
 
@@ -102,6 +102,37 @@ header .content h2 {
 
 @media screen and (min-width: 1280px) {
   header .content h2 {
+    font-size: 72px;
+  }
+}
+
+header .content h3 {
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 450;
+  margin: 20px 0px;
+}
+
+@media screen and (min-width: 480px) {
+  header .content h3 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header .content h3 {
+    font-size: 42px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header .content h3 {
+    font-size: 56px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  header .content h3 {
     font-size: 72px;
   }
 }
